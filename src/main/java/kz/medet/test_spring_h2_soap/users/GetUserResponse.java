@@ -8,12 +8,12 @@ import lombok.Setter;
 @XmlType(name = "", propOrder = {
         "user"
 })
-@XmlRootElement(name = "GetUserResponse")
+@XmlRootElement(name = "getUserResponse")
 @Getter
 @Setter
 public class GetUserResponse {
 
-    @XmlElement(name = "UserDetail", required = true)
+    @XmlElement(name = "user", required = true)
     protected UserDto user;
 
 

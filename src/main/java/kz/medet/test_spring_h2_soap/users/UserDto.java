@@ -13,7 +13,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "UserDetail", propOrder = {
+@XmlType(name = "user", propOrder = {
         "id",
         "name",
         "surname",
